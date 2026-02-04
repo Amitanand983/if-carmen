@@ -1,10 +1,13 @@
-<p align="center">
-  <img src="./docs/static/carmen-logo.svg" alt="Carmen logo" width="125" />
-</p>
+# Carbon Measurement Engine (Carmen)
 
-<p align="center">
-  <strong>Carbon Measurement Engine for Cloud Applications</strong>
-</p>
+<img src="./docs/static/carmen-logo.svg" alt="Carmen logo" width="125" />
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GSF Project](https://img.shields.io/badge/GSF-Software_Project-brightgreen)](https://greensoftware.foundation)
+
+> **Carbon Measurement Engine for Cloud Applications**
+
+Managed by the [Software Standards Working Group](https://github.com/Green-Software-Foundation/software-standards-wg) in the [Green Software Foundation](https://greensoftware.foundation).
 
 ---
 
@@ -16,6 +19,16 @@ Carmen (Carbon Measurement Engine) is an open-source tool that enables organizat
 - **Application Level** - Track the carbon footprint of individual applications and workloads running in your cluster
 
 Carmen integrates seamlessly with industry-standard tools like Kubernetes, Prometheus, and Kube State Metrics, and is built on top of the Impact Framework developed by the Green Software Foundation.
+
+### Appointments
+
+The project is led by:
+* [Florent Morel (Amadeus)](https://github.com/florent-morel)
+* [Robin Castellon (Amadeus)](https://github.com/robin-castellon)
+
+### Status
+
+**This is draft software only and has not been approved or adopted by the Green Software Foundation. this draft may not be relied upon for any purpose other than review of the current state of development.**
 
 ## Motivation
 
@@ -143,8 +156,3 @@ Carmen was developed and maintained by these outstanding people:
 - Thibaut CHASSIGNET
 - Xu HE
 - Yannick DEVAUX
----
-
-<p align="center">
-  Built with 💚 for a sustainable future
-</p>
