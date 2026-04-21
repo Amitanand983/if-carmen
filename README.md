@@ -48,56 +48,8 @@ Carmen's API can be deployed as a sidecar container within your Kubernetes clust
 
 ## Getting Started
 
-### Prerequisites
+Follow the [Quick Start Guide](./docs/quick-start-guide.md).
 
-Before installing Carmen, ensure you have the following dependencies:
-
-- Python 3.11 or higher
-- pip (Python package manager)
-- npm (Node package manager)
-
-### Installation
-
-#### Step 1: Install Impact Framework Dependencies
-
-First, install the Impact Framework and related plugins globally using npm:
-
-```bash
-npm install -g "@grnsft/if" "@grnsft/if-plugins" "@grnsft/if-unofficial-plugins"
-```
-
-#### Step 2: Install Carmen
-
-We recommend installing Carmen in a virtual environment to keep dependencies isolated.
-
-**For Linux/macOS:**
-
-```bash
-python -m venv .venv
-source ./.venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install amadeus-carmen
-```
-
-**For Windows:**
-
-```bash
-py -m venv .venv
-.\.venv\Scripts\activate
-.\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install amadeus-carmen
-```
-
-### Quick Start
-
-To verify your installation, run the Carmen daemon example:
-
-```bash
-cd ./examples-data
-carbon-daemon
-```
-
-The carbon emissions report will be generated and saved in the `examples-data/output/` directory.
 
 ## Documentation
 
