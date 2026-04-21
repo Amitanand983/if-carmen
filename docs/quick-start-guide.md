@@ -44,7 +44,7 @@ The "magic" — and the reason Carmen scales to thousands of servers where plain
 ## Prerequisites
 
 - [Git](https://git-scm.com/)
-- [Python 3.11 or higher](https://www.python.org/)
+- [Python 3.12](https://www.python.org/)
 - [Python package manager (pip)](https://pypi.org/project/pip/)
 - [Node package manager (npm)](https://www.npmjs.com/)
 
