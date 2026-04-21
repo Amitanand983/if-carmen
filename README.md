@@ -46,12 +46,24 @@ The Carmen daemon collects Virtual Machine usage data and processes it through t
 
 Carmen's API can be deployed as a sidecar container within your Kubernetes cluster. By connecting to your local Prometheus instance, Carmen retrieves CPU and memory usage metrics from your pods and computes detailed insights into the energy consumption and carbon footprint of your workloads over any specified time range.
 
-## Getting Started
+## Is Carmen the right tool for you?
 
-Follow the [Quick Start Guide](./docs/quick-start-guide.md).
+Carmen is an **engineering tool**, built by engineers for engineers. It is for **optimisation and introspection** — identifying concrete parts of your infrastructure where you can reduce emissions. 
 
+Carmen is probably **not** the right tool if you need:
+- Carbon figures for corporate/ESG reporting
+- Numbers for a press release or marketing material
+- Compliance or regulatory disclosures
+
+Carmen **is** the right tool if you want to:
+- Know which services, VMs, or pods in your stack emit the most CO2
+- Compare components and prioritise reductions
+- Feed per-component carbon scores into your own FinOps dashboards or internal tooling
+- Give developers granular, actionable insights into the carbon footprint of their code
 
 ## Documentation
+
+### [Quick Start Guide](./docs/quick-start-guide.md)
 
 For more detailed information on using Carmen, refer to our comprehensive guides:
 
